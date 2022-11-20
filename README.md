@@ -12,6 +12,9 @@ As tecnologias utilizadas neste projeto são:
 - JavaScript
 - React
 - React DOM
+- Testing Library
+- React Scripts
+- Web Vitals
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
