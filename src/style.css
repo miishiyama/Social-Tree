@@ -33,6 +33,11 @@ header img {
     padding: 6px;
     border-radius: 50%;
     border: 2px solid var(--purple);
+    transition: transform 0.6s;
+}
+
+header img:hover {
+    transform: scale(1.05);
 }
 
 header h1 {
@@ -67,6 +72,12 @@ ul {
     border-radius: 4px;
     margin-top: 16px;
     padding: 0.75rem 8.81rem;
+    transition: color 0.2s;
+}
+
+.list-link:hover {
+    color: var(--background-color);
+    background-color: var(--purple);
 }
 
 .social {
@@ -78,4 +89,9 @@ ul {
     display: flex;
     padding-inline-start: 1.4rem;
     padding-inline-end: 1.4rem;
+    transition: transform 0.1s;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
 }
