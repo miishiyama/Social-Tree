@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import Header from "./components/Header";
 import List from "./components/List";
 import Section from "./components/Section";
