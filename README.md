@@ -10,6 +10,7 @@ Siga esses passos para instalar o repositório na sua máquina:
 1. Rode `git clone https://github.com/miishiyama/Social-Tree` para fazer um clone desse repositório.
 2. Rode `npm i` para instalar as dependências do projeto.
 3. Rode `npm start` para iniciar o servidor de desenvolvimento.
+4. Entre no link que aparecer no terminal.
 
 ## Tecnologias 🚀
 As tecnologias utilizadas neste projeto são:
@@ -21,6 +22,8 @@ As tecnologias utilizadas neste projeto são:
 - Testing Library
 - React Scripts
 - Web Vitals
+- Node
+- NPM
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
