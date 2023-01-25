@@ -5,7 +5,9 @@ export default function Header() {
         <header>
             <div>
                 <img src={Photo} />
-                <h1>@instagram</h1>
+                <h1>
+                    @instagram
+                </h1>
             </div>
         </header>
     )
