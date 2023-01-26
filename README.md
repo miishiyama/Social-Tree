@@ -17,6 +17,7 @@ As tecnologias utilizadas neste projeto são:
 - HTML
 - CSS
 - JavaScript
+- DOM
 - React
 - React DOM
 - Testing Library
