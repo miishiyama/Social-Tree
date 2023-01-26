@@ -25,6 +25,7 @@ As tecnologias utilizadas neste projeto são:
 - Web Vitals
 - Node
 - NPM
+- Google Fonts
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
