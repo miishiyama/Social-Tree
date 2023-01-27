@@ -38,23 +38,23 @@ const listLink = [
 const socialLink = [
   {
     url: "https://twitter.com/",
-    logo: `${Twitter}`
+    logo: `${ Twitter }`
   },
   {
     url: "https://www.twitch.tv/",
-    logo: `${Twitch}`
+    logo: `${ Twitch }`
   },
   {
     url: "https://www.instagram.com/",
-    logo: `${Instagram}`
+    logo: `${ Instagram }`
   },
   {
     url: "https://br.linkedin.com/",
-    logo: `${Linkedin}`
+    logo: `${ Linkedin }`
   },
   {
     url: "https://github.com/",
-    logo: `${Github}`
+    logo: `${ Github }`
   }
 ]
 
@@ -64,18 +64,22 @@ function App() {
       <Header />
       <main>
         <Section>
-          {listLink.map(function(item) {
-            return (
-              <List title={item.title} />
-            )
-          })}
+          {
+            listLink.map(function(item) {
+              return (
+                <List title={ item.title } />
+              )
+            })
+          }
         </Section>
         <Section>
-          {socialLink.map(function(item) {
-            return (
-              <Social url={item.url} logo={item.logo} />
-            )
-          })}
+          {
+            socialLink.map(function(item) {
+              return (
+                <Social url={ item.url } logo={ item.logo } />
+              )
+            })
+          }
         </Section>
       </main>
     </div>

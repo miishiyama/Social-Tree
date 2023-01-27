@@ -3,7 +3,7 @@ export default function Section(props) {
         <section class="section">
             <div>
                 <ul>
-                    {props.children}
+                    { props.children }
                 </ul>
             </div>
         </section>
