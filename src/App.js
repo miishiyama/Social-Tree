@@ -65,7 +65,7 @@ function App() {
       <main>
         <Section>
           {
-            listLink.map(function(item) {
+            listLink.map(function (item) {
               return (
                 <List title={ item.title } />
               )
@@ -74,7 +74,7 @@ function App() {
         </Section>
         <Section>
           {
-            socialLink.map(function(item) {
+            socialLink.map(function (item) {
               return (
                 <Social url={ item.url } logo={ item.logo } />
               )
